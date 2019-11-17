@@ -1,0 +1,90 @@
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 847px;
+  margin: 0 auto;
+  margin-top: -209px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.image {
+  width: 322px;
+  height: 520px;
+}
+
+.logoContent {
+  width: 448px;
+}
+
+.logoContent>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.LoginButton {
+  display: flex;
+  width: 101px;
+  height: 41px;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #497194;
+  border-radius: 8px;
+  border-style: solid;
+}
+
+.LoginButton>a {
+  text-decoration: none;
+  color: white;
+}
+
+.captureAndShareContainer {
+  width: 448px;
+  height: 295px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-top-width: 35px;
+  border-radius: 7px;
+}
+
+.captureAndShareContainer>div {
+  padding-left: 35px;
+}
+
+.captureAndShareContainer>div>h1 {
+  font-size: 27px;
+  width: 285px;
+}
+
+.captureAndShareContainer>div>p {
+  width: 386px;
+}
+
+.downloadIcons>div {
+  width: 354px;
+  margin: 0 auto;
+  margin-top: 23px;
+}
+
+.backgroundApp {
+  height: 354px;
+  background-color: #497194;
+}
+
+.containerFooter {
+  width: 847px;
+  margin: 0 auto;
+}
+
+.containerFooter>div>ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  color: #497194;
+  font-size: larger;
+}
